@@ -1,0 +1,35 @@
+#messages {
+    max-height: 790px; /* Chiều cao cố định là 400px */
+    overflow-y: scroll; /* Tạo thanh cuộn nếu nội dung vượt quá chiều cao */
+  }
+
+#users-list{
+  list-style: none;
+}
+
+/* fix input field position */
+#form-msg {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 1260px;
+}
+
+.chat-pannel {
+  min-height: 940px;
+}
+
+.message-form {
+  position: absolute; /* Vị trí tuyệt đối */
+  bottom: 0; /* Ở dưới cùng */
+  right: 0; /* Ở bên phải */
+}
+
+.input-group{
+  min-height: 80px;
+}
+
+.side-user-list{
+  background-color: rgb(135, 118, 152);
+}
+  
